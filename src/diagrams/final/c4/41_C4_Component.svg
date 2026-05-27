@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1619px" height="1120px" viewBox="0 0 1619 1120" style="background:#FFFFFF;" version="1.1">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#181818"/></marker>
+</defs>
+<rect x="0" y="0" width="1619" height="1120" fill="#FFFFFF"/>
+<text x="809.5" y="28" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle">C4 Component — Backend API маркетплейса вакансий и стажировок</text>
+<text x="809.5" y="50" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle">Внутренние компоненты контейнера Backend API</text>
+<rect x="330" y="90" width="930" height="860" rx="10" ry="10" fill="none" stroke="#181818" stroke-width="1.2" stroke-dasharray="8 6"/>
+<text x="344" y="112" fill="#000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Контейнер: Backend API / Spring Boot</text>
+<rect x="55" y="135" width="220" height="90" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="165.0" y="153.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[UI]</text>
+<text x="165.0" y="172.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Student UI</text>
+<text x="165.0" y="196.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Каталог, профиль, отклики</text>
+<rect x="55" y="300" width="220" height="90" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="165.0" y="318.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[UI]</text>
+<text x="165.0" y="337.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Employer UI</text>
+<text x="165.0" y="361.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Вакансии и кандидаты</text>
+<rect x="55" y="465" width="220" height="90" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="165.0" y="483.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[UI]</text>
+<text x="165.0" y="502.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Moderator UI</text>
+<text x="165.0" y="526.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Проверка вакансий</text>
+<rect x="55" y="630" width="220" height="90" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="165.0" y="648.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[UI]</text>
+<text x="165.0" y="667.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Career UI</text>
+<text x="165.0" y="691.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Отчёты и аналитика</text>
+<rect x="380" y="125" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="143.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="162.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Auth Controller</text>
+<text x="487.5" y="186.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Авторизация и роли</text>
+<rect x="380" y="235" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="253.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="272.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Profile Controller</text>
+<text x="487.5" y="296.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Профиль студента</text>
+<rect x="380" y="345" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="363.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="382.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Vacancy Controller</text>
+<text x="487.5" y="406.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Вакансии и компании</text>
+<rect x="380" y="455" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="473.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="492.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Application Controller</text>
+<text x="487.5" y="516.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Отклики и статусы</text>
+<rect x="380" y="565" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="583.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="602.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Interview Controller</text>
+<text x="487.5" y="626.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Интервью</text>
+<rect x="380" y="675" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="693.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="712.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Moderation Controller</text>
+<text x="487.5" y="736.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Модерация</text>
+<rect x="380" y="785" width="215" height="78" rx="6" ry="6" fill="#D5E8D4" stroke="#181818" stroke-width="1.2"/>
+<text x="487.5" y="803.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="487.5" y="822.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Reporting Controller</text>
+<text x="487.5" y="846.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Отчёты</text>
+<rect x="675" y="125" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="143.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="162.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Auth Service</text>
+<text x="785.0" y="186.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Проверка прав доступа</text>
+<rect x="675" y="235" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="253.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="272.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Vacancy Service</text>
+<text x="785.0" y="296.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Бизнес-логика вакансий</text>
+<rect x="675" y="345" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="363.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="382.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Application Service</text>
+<text x="785.0" y="406.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Обработка откликов</text>
+<rect x="675" y="455" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="473.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="492.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Interview Service</text>
+<text x="785.0" y="516.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Планирование интервью</text>
+<rect x="675" y="565" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="583.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="602.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Recommendation Adapter</text>
+<text x="785.0" y="626.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Запрос рекомендаций</text>
+<rect x="675" y="675" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="693.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="712.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Notification Adapter</text>
+<text x="785.0" y="736.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Запрос уведомлений</text>
+<rect x="675" y="785" width="220" height="78" rx="6" ry="6" fill="#E8F4FD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="803.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Component]</text>
+<text x="785.0" y="822.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Reporting Service</text>
+<text x="785.0" y="846.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Сбор статистики</text>
+<rect x="985" y="125" width="220" height="78" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="143.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Repository]</text>
+<text x="1095.0" y="162.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">User Repository</text>
+<text x="1095.0" y="186.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Пользователи и роли</text>
+<rect x="985" y="260" width="220" height="78" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="278.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Repository]</text>
+<text x="1095.0" y="297.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Vacancy Repository</text>
+<text x="1095.0" y="321.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Вакансии</text>
+<rect x="985" y="395" width="220" height="78" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="413.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Repository]</text>
+<text x="1095.0" y="432.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Application Repository</text>
+<text x="1095.0" y="456.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Отклики</text>
+<rect x="985" y="530" width="220" height="78" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="548.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Repository]</text>
+<text x="1095.0" y="567.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Interview Repository</text>
+<text x="1095.0" y="591.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Интервью</text>
+<rect x="985" y="665" width="220" height="78" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="683.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Repository]</text>
+<text x="1095.0" y="702.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Moderation Repository</text>
+<text x="1095.0" y="726.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Журнал проверок</text>
+<rect x="985" y="800" width="220" height="78" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="818.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Repository]</text>
+<text x="1095.0" y="837.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Report Repository</text>
+<text x="1095.0" y="861.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Агрегации отчётов</text>
+<path d="M 1350 163 C 1350 145 1570 145 1570 163 L 1570 232 C 1570 250 1350 250 1350 232 Z" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<ellipse cx="1460.0" cy="163" rx="110.0" ry="18" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<text x="1460.0" y="163.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Database]</text>
+<text x="1460.0" y="182.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">User DB</text>
+<text x="1460.0" y="206.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Роли и профили</text>
+<path d="M 1350 318 C 1350 300 1570 300 1570 318 L 1570 387 C 1570 405 1350 405 1350 387 Z" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<ellipse cx="1460.0" cy="318" rx="110.0" ry="18" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<text x="1460.0" y="318.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Database]</text>
+<text x="1460.0" y="337.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Vacancy DB</text>
+<text x="1460.0" y="361.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Вакансии и компании</text>
+<path d="M 1350 473 C 1350 455 1570 455 1570 473 L 1570 542 C 1570 560 1350 560 1350 542 Z" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<ellipse cx="1460.0" cy="473" rx="110.0" ry="18" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<text x="1460.0" y="473.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Database]</text>
+<text x="1460.0" y="492.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Application DB</text>
+<text x="1460.0" y="516.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Отклики и интервью</text>
+<path d="M 1350 628 C 1350 610 1570 610 1570 628 L 1570 697 C 1570 715 1350 715 1350 697 Z" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<ellipse cx="1460.0" cy="628" rx="110.0" ry="18" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<text x="1460.0" y="628.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Database]</text>
+<text x="1460.0" y="647.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Moderation DB</text>
+<text x="1460.0" y="671.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Решения модерации</text>
+<path d="M 1350 783 C 1350 765 1570 765 1570 783 L 1570 852 C 1570 870 1350 870 1350 852 Z" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<ellipse cx="1460.0" cy="783" rx="110.0" ry="18" fill="#FCE8E8" stroke="#181818" stroke-width="1.2"/>
+<text x="1460.0" y="783.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Database]</text>
+<text x="1460.0" y="802.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Report DB</text>
+<text x="1460.0" y="826.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Статистика и аудит</text>
+<rect x="675" y="980" width="220" height="80" rx="6" ry="6" fill="#FFF3CD" stroke="#181818" stroke-width="1.2"/>
+<text x="785.0" y="998.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[External System]</text>
+<text x="785.0" y="1017.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Recommendation Service</text>
+<text x="785.0" y="1041.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Внешний сервис подбора</text>
+<rect x="985" y="980" width="220" height="80" rx="6" ry="6" fill="#FFF3CD" stroke="#181818" stroke-width="1.2"/>
+<text x="1095.0" y="998.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[External Systems]</text>
+<text x="1095.0" y="1017.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Mail / Calendar</text>
+<text x="1095.0" y="1041.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Письма и события интервью</text>
+<path d="M 275.0 180.0 L 380.0 164.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<rect x="298.5" y="150.0" width="58.0" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="327.5" y="164.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">REST</text>
+<path d="M 275.0 345.0 L 380.0 384.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<rect x="298.5" y="342.5" width="58.0" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="327.5" y="356.5" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">REST</text>
+<path d="M 275.0 510.0 L 380.0 714.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<rect x="298.5" y="590.0" width="58.0" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="327.5" y="604.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">REST</text>
+<path d="M 275.0 675.0 L 380.0 824.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<rect x="298.5" y="727.5" width="58.0" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="327.5" y="741.5" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">REST</text>
+<path d="M 595.0 164.0 L 675.0 164.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 595.0 274.0 L 675.0 274.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 595.0 384.0 L 675.0 384.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 595.0 494.0 L 675.0 494.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 595.0 604.0 L 675.0 604.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 595.0 714.0 L 675.0 714.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 595.0 824.0 L 675.0 824.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 164.0 L 985.0 164.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 274.0 L 985.0 299.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 384.0 L 985.0 434.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 494.0 L 985.0 569.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 604.0 L 985.0 299.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 714.0 L 985.0 704.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 895.0 824.0 L 985.0 839.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 1205.0 164.0 L 1350.0 197.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 1205.0 299.0 L 1350.0 352.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 1205.0 434.0 L 1350.0 507.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 1205.0 569.0 L 1350.0 507.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 1205.0 704.0 L 1350.0 662.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 1205.0 839.0 L 1350.0 817.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<path d="M 785.0 643.0 L 785.0 875.0 L 785.0 980.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<rect x="752.6" y="853.0" width="64.8" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="785.0" y="867.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">recommend</text>
+<path d="M 785.0 714.0 L 895.0 900.0 L 1095.0 900.0 L 1095.0 980.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)"/>
+<rect x="1044.6" y="878.0" width="100.8" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="1095.0" y="892.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">notify / event</text>
+<rect x="55" y="860" width="260" height="130" rx="6" ry="6" fill="#FEFFDD" stroke="#181818" stroke-width="1.2"/>
+<text x="185.0" y="878.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="12" font-weight="400" text-anchor="middle">[Note]</text>
+<text x="185.0" y="897.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Что изменено</text>
+<text x="185.0" y="921.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">UI оставлены вне Backend API.</text>
+<text x="185.0" y="937.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">Контроллеры, сервисы, репозитории</text>
+<text x="185.0" y="953.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">и адаптеры находятся внутри</text>
+<text x="185.0" y="969.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">контейнера. Базы данных и внешние</text>
+<text x="185.0" y="985.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" text-anchor="middle">сервисы вынесены наружу.</text>
+<path d="M 315.0 925.0 L 330.0 925.0" fill="none" stroke="#181818" stroke-width="1.25" marker-end="url(#arrow)" stroke-dasharray="6 5"/>
+<rect x="268.5" y="903.0" width="108.0" height="18" fill="#FFFFFF" opacity="0.92"/>
+<text x="322.5" y="917.0" fill="#000000" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="11" font-weight="400" text-anchor="middle">граница Backend</text>
+</svg>

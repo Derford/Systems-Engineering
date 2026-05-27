@@ -1,0 +1,19 @@
+@startuml
+title Component — Публикация вакансии работодателем
+skinparam componentStyle rectangle
+left to right direction
+component "Frontend" as FE
+component "Backend API" as BE
+component "Вакансия Service" as ES
+component "Audit Service" as AU
+component "Notification Service" as NS
+database "PostgreSQL" as DB
+queue "Outbox" as Q
+FE --> BE
+BE --> ES
+ES --> DB
+ES --> AU
+AU --> DB
+ES --> Q
+Q --> NS
+@enduml

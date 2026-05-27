@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor "Работодатель" as E
+actor "Студент" as S
+rectangle "1. Управление откликом" as P1
+rectangle "2. Назначение интервью" as P2
+rectangle "3. Уведомление" as P3
+database "D1 Отклики" as D1
+database "D2 Интервью" as D2
+cloud "Calendar API" as Cal
+E --> P1 : решение по кандидату
+P1 --> D1 : обновить статус
+P1 --> P2 : дата интервью
+P2 --> Cal : создать событие
+P2 --> D2 : сохранить интервью
+P2 --> P3 : событие уведомления
+P3 --> S : уведомление
+@enduml

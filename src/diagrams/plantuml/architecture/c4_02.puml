@@ -1,0 +1,39 @@
+@startuml
+skinparam shadowing false
+skinparam componentStyle rectangle
+left to right direction
+
+title C4 Container — контейнеры системы
+
+actor "Студент" as Student
+actor "Работодатель" as Employer
+actor "Карьерный центр" as Career
+
+node "Web-клиент" as Frontend
+component "Backend API" as Backend
+component "Recommendation Service" as Rec
+component "Notification Service" as Notif
+component "Moderation Module" as Mod
+component "Reporting Module" as Report
+database "PostgreSQL" as DB
+database "Redis" as Cache
+cloud "SSO" as SSO
+cloud "E-mail / Messenger" as Mail
+cloud "Calendar API" as Cal
+
+Student --> Frontend
+Employer --> Frontend
+Career --> Frontend
+Frontend --> Backend : REST API
+Backend --> SSO : OAuth2/OIDC
+Backend --> DB : данные
+Backend --> Cache : кэш
+Backend --> Rec : запрос рекомендаций
+Backend --> Notif : событие уведомления
+Backend --> Mod : проверка вакансий
+Backend --> Report : отчёты
+Notif --> Mail : отправка
+Backend --> Cal : интервью
+Rec --> DB : профиль и вакансии
+Report --> DB : агрегирование
+@enduml

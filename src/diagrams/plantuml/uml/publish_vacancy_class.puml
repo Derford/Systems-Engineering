@@ -1,0 +1,41 @@
+@startuml
+title Class Diagram — Публикация вакансии работодателем
+class User {
+  +id: UUID
+  +email: String
+  +role: Role
+}
+class Student {
+  +direction: String
+  +course: int
+  +skills: List<String>
+}
+class Employer {
+  +companyName: String
+  +verified: boolean
+}
+class Vacancy {
+  +id: UUID
+  +title: String
+  +status: VacancyStatus
+  +requiredSkills: List<String>
+}
+class Application {
+  +id: UUID
+  +status: ApplicationStatus
+  +createdAt: DateTime
+}
+class Interview {
+  +id: UUID
+  +startsAt: DateTime
+  +format: String
+}
+User <|-- Student
+User <|-- Employer
+Employer "1" --> "0..*" Vacancy
+Student "1" --> "0..*" Application
+Vacancy "1" --> "0..*" Application
+Application "0..1" --> Interview
+enum VacancyStatus { DRAFT; MODERATION; PUBLISHED; REJECTED; CLOSED }
+enum ApplicationStatus { NEW; REVIEW; INTERVIEW; OFFER; REJECTED }
+@enduml

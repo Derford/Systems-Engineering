@@ -1,0 +1,35 @@
+@startuml
+skinparam shadowing false
+skinparam componentStyle rectangle
+left to right direction
+
+title Deployment-схема
+
+node "Пользовательский браузер" as Browser
+node "Reverse Proxy
+NGINX" as Nginx
+node "Application Server" {
+  component "Frontend static" as FE
+  component "Backend API" as BE
+  component "Recommendation Service" as RS
+  component "Notification Worker" as NW
+}
+node "Data Layer" {
+  database "PostgreSQL" as PG
+  database "Redis" as RD
+}
+cloud "SSO университета" as SSO
+cloud "E-mail / Messenger" as MSG
+cloud "Calendar API" as CAL
+
+Browser --> Nginx : HTTPS
+Nginx --> FE
+Nginx --> BE : /api
+BE --> RS
+BE --> PG
+BE --> RD
+BE --> SSO
+BE --> CAL
+NW --> MSG
+BE --> NW : outbox events
+@enduml

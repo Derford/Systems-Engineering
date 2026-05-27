@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor "Студент" as S
+actor "Работодатель" as E
+rectangle "1. Проверка профиля" as P1
+rectangle "2. Создание отклика" as P2
+rectangle "3. Уведомление" as P3
+database "D1 Профили" as D1
+database "D2 Вакансии" as D2
+database "D3 Отклики" as D3
+S --> P1 : запрос отклика
+P1 --> D1 : данные профиля
+P1 --> D2 : статус вакансии
+P1 --> P2 : профиль валиден
+P2 --> D3 : новый отклик
+P2 --> P3 : событие
+P3 --> E : уведомление
+@enduml

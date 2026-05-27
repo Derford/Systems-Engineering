@@ -1,0 +1,27 @@
+@startuml
+left to right direction
+title IDEF0 — Рекомендации вакансий
+rectangle "Входы
+Профиль
+Навыки
+История откликов
+Каталог вакансий" as I
+rectangle "Управление
+Модель матчинга
+Порог релевантности
+Политика приватности" as C
+rectangle "A3
+Рассчитать рекомендации" as A
+rectangle "Механизмы
+Recommendation Service
+PostgreSQL
+Redis" as M
+rectangle "Выходы
+Список рекомендаций
+Оценка релевантности
+Объяснение" as O
+I --> A
+C --> A
+M --> A
+A --> O
+@enduml

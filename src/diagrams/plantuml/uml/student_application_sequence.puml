@@ -1,0 +1,17 @@
+@startuml
+title Sequence — Отклик студента на вакансию
+actor "Студент" as A
+participant "Frontend" as FE
+participant "Backend API" as BE
+database "PostgreSQL" as DB
+participant "Notification Service" as NS
+A -> FE : действие по сценарию
+FE -> BE : REST-запрос
+BE -> BE : проверка ролей и валидация
+BE -> DB : сохранить/прочитать данные
+DB --> BE : результат
+BE -> NS : событие уведомления
+NS --> BE : принято
+BE --> FE : успешный ответ
+FE --> A : показать результат
+@enduml

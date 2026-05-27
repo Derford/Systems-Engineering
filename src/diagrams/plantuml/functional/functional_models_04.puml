@@ -1,0 +1,27 @@
+@startuml
+skinparam shadowing false
+left to right direction
+title IDEF0 — Отклик студента
+rectangle "Входы
+Профиль студента
+Выбранная вакансия
+Резюме" as I
+rectangle "Управление
+Правила отклика
+Статус вакансии
+Права доступа" as C
+rectangle "A2
+Создать отклик" as A
+rectangle "Механизмы
+Студент
+Backend API
+База данных" as M
+rectangle "Выходы
+Отклик
+Уведомление работодателю
+Событие аудита" as O
+I --> A
+C --> A
+M --> A
+A --> O
+@enduml

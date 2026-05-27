@@ -1,0 +1,35 @@
+@startuml
+skinparam shadowing false
+skinparam componentStyle rectangle
+left to right direction
+
+title Компонентная схема сервисов
+
+component "Frontend
+React" as FE
+component "Backend API
+Spring Boot" as BE
+component "Recommendation Service
+FastAPI" as RS
+component "Notification Service" as NS
+component "Moderation Module" as MM
+component "Reporting Module" as RM
+database "PostgreSQL" as PG
+database "Redis" as Redis
+cloud "SSO" as SSO
+cloud "E-mail / Messenger" as MSG
+cloud "Calendar" as CAL
+
+FE --> BE : REST/JSON
+BE --> SSO : OIDC
+BE --> PG : SQL
+BE --> Redis : cache
+BE --> RS : /recommendations
+BE --> NS : events
+BE --> MM : проверка вакансии
+BE --> RM : отчёты
+NS --> MSG : уведомления
+BE --> CAL : интервью
+RS --> PG : признаки
+RM --> PG : агрегаты
+@enduml

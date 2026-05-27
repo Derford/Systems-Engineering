@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+title IDEF0 — Интервью и статусы
+rectangle "Входы
+Отклик
+Свободное время
+Решение работодателя" as I
+rectangle "Управление
+Правила статусов
+Календарные ограничения
+Уведомления" as C
+rectangle "A4
+Назначить интервью и обновить статус" as A
+rectangle "Механизмы
+Работодатель
+Calendar API
+Notification Service" as M
+rectangle "Выходы
+Интервью
+Обновлённый статус
+Уведомление студенту" as O
+I --> A
+C --> A
+M --> A
+A --> O
+@enduml

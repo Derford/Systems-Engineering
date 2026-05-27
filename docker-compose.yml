@@ -1,0 +1,20 @@
+services:
+  frontend:
+    image: node:20-alpine
+    command: sh -c "echo Frontend placeholder && sleep infinity"
+  backend-api:
+    image: eclipse-temurin:21-jre
+    command: sh -c "echo Backend API placeholder && sleep infinity"
+  recommendation-service:
+    image: python:3.12-slim
+    command: sh -c "echo Recommendation service placeholder && sleep infinity"
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: career_marketplace
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+    ports:
+      - "5432:5432"
+  redis:
+    image: redis:7-alpine

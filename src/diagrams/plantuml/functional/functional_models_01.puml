@@ -1,0 +1,27 @@
+@startuml
+skinparam shadowing false
+left to right direction
+title IDEF0 — Публикация вакансии
+rectangle "Входы
+Описание вакансии
+Требования
+Данные работодателя" as I
+rectangle "Управление
+Правила модерации
+Политика университета
+Антиспам" as C
+rectangle "A1
+Опубликовать вакансию" as A
+rectangle "Механизмы
+Работодатель
+Backend API
+Модератор" as M
+rectangle "Выходы
+Опубликованная вакансия
+Решение модерации
+Уведомление" as O
+I --> A
+C --> A
+M --> A
+A --> O
+@enduml

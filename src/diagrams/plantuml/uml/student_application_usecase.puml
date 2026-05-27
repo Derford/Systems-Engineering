@@ -1,0 +1,20 @@
+@startuml
+left to right direction
+title Use Case — Отклик студента на вакансию
+actor "Студент" as A
+actor "Модератор" as M
+actor "Карьерный центр" as C
+rectangle "Маркетплейс вакансий" {
+  usecase "Выполнить сценарий
+Отклик студента на вакансию" as UC1
+  usecase "Проверить права" as UC2
+  usecase "Записать аудит" as UC3
+  usecase "Отправить уведомление" as UC4
+}
+A --> UC1
+UC1 .> UC2 : include
+UC1 .> UC3 : include
+UC1 .> UC4 : include
+M --> UC1
+C --> UC3
+@enduml

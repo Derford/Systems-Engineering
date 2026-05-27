@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+actor "Работодатель" as E
+actor "Модератор" as M
+rectangle "1. Создание вакансии" as P1
+rectangle "2. Модерация" as P2
+database "D1 Вакансии" as D1
+database "D2 Аудит" as D2
+E --> P1 : данные вакансии
+P1 --> D1 : черновик/на модерации
+P1 --> M : задача проверки
+M --> P2 : решение
+P2 --> D1 : статус публикации
+P2 --> D2 : запись аудита
+P2 --> E : уведомление
+@enduml

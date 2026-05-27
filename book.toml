@@ -1,0 +1,12 @@
+[book]
+title = "Маркетплейс вакансий и стажировок для университета"
+authors = ["Ерёмин (м1-ИФСТ-12)", "Иванов (м1-ИФСТ-12)", "Петрушин (м1-ИФСТ-11)"]
+language = "ru"
+src = "src"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+additional-css = ["src/_assets/custom.css"]
+git-repository-url = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
+edit-url-template = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/edit/main/{path}"

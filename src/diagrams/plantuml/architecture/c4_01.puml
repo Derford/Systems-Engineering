@@ -1,0 +1,29 @@
+@startuml
+!define RECTANGLE class
+skinparam shadowing false
+skinparam packageStyle rectangle
+left to right direction
+
+title C4 Context — Маркетплейс вакансий и стажировок
+
+actor "Студент" as Student
+actor "Работодатель" as Employer
+actor "Карьерный центр" as Career
+actor "Модератор" as Moderator
+
+rectangle "Маркетплейс вакансий
+и стажировок" as System
+cloud "SSO / ЛК студента" as SSO
+cloud "E-mail / мессенджер" as Notify
+cloud "Календарь" as Calendar
+cloud "Аналитика университета" as Analytics
+
+Student --> System : ищет вакансии, откликается
+Employer --> System : публикует вакансии, смотрит отклики
+Career --> System : анализирует трудоустройство
+Moderator --> System : модерирует вакансии
+System --> SSO : авторизация
+System --> Notify : уведомления
+System --> Calendar : события интервью
+System --> Analytics : отчёты
+@enduml

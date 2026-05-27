@@ -1,0 +1,35 @@
+@startuml
+skinparam shadowing false
+skinparam componentStyle rectangle
+left to right direction
+
+title C4 Component — Backend API
+
+component "Auth Controller" as Auth
+component "Profile Controller" as Profile
+component "Vacancy Controller" as Vacancy
+component "Application Controller" as App
+component "Interview Controller" as Interview
+component "Recommendation Client" as RecClient
+component "Notification Producer" as Notif
+component "Audit Service" as Audit
+component "RBAC Filter" as RBAC
+database "PostgreSQL" as DB
+queue "Outbox / Queue" as Queue
+cloud "Recommendation Service" as Rec
+
+Auth --> RBAC
+Profile --> DB
+Vacancy --> DB
+App --> DB
+Interview --> DB
+App --> RecClient
+RecClient --> Rec
+Vacancy --> Audit
+App --> Audit
+Interview --> Audit
+Audit --> DB
+Notif --> Queue
+App --> Notif
+Interview --> Notif
+@enduml
