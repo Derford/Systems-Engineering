@@ -8,5 +8,5 @@ src = "src"
 default-theme = "light"
 preferred-dark-theme = "navy"
 additional-css = ["src/_assets/custom.css"]
-git-repository-url = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY"
-edit-url-template = "https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/edit/main/{path}"
+git-repository-url = "https://github.com/Derford/Systems-Engineering"
+edit-url-template = "https://github.com/Derford/Systems-Engineering/edit/main/{path}"
